@@ -1,0 +1,478 @@
+@-moz-document url-prefix(){
+    @font-face {
+        font-family: "Gabriola";
+        src: url(font/Gabriola.ttf);
+    }
+    *{
+        font-family: "Gabriola";
+        font-size: 30px;
+        margin: 0;
+    }
+    .text_banner{
+        font-family: "Gabriola";
+    }
+    button, .btn{
+
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding:0px 20px;
+        outline: none;
+        border-width: 2px 0;
+        border-style: solid none;
+        border-color: #a3c6e3 #000 #2196F3;
+        border-radius: 6px;
+        background: linear-gradient(#61aae6, #0e7fdc) #2196F3;
+        transition: 0.2s;
+        font-family: "Gabriola";
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    .button_banner1, .button_banner{
+        font-family: "Gabriola";
+        font-size: 30px;
+    }
+    button a{
+        font-family: "Gabriola";
+        font-size: 30px;
+    }
+    nav{
+        display: flex;
+        font-family: "Gabriola";
+        padding: 10px 20px 0;
+    }
+}
+@font-face {
+    font-family: "Gabriola";
+    src: url(font/Gabriola.ttf);
+}
+*{
+    font-family: "Gabriola";
+    font-size: 30px;
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    color: #282d6d;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+h2 { 
+    font-size: 2em; 
+    text-align: center;
+    margin: 0;
+}
+.text_banner{
+    font-size: 1em;
+}
+.banner{
+    width:1366px;
+    height:550px;
+    overflow:hidden;
+    position:relative
+}    
+.photo_banner
+{
+    position:absolute;
+    animation:round 16s infinite;
+    opacity:0;
+    width:100%
+}
+@keyframes round {
+    25%{opacity:1}
+    40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+.text_banner{
+    font-family: "Gabriola";
+}
+ul{
+    display: flex;
+}
+.ul_menu_left li, .ul_menu_right li{
+    list-style-type: none;
+}
+.ul_menu_left li a, .ul_menu_right li a{
+    text-decoration: none; 
+    font-size: 50px;
+    color: #5d6aa6;
+}
+.banner_text {
+    position: absolute;
+    background: #ffffffc7;
+    top: 5%;
+    left: 30%;
+    color: #282d6d;
+    border: #a3c6e3;
+    border-radius: 30px;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    font: bold 50px Helvetica, Sans-Serif;
+    line-height: 100px;
+}
+.banner_button{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+button{
+    
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding:0px 20px;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #a3c6e3 #000 #2196F3;
+    border-radius: 6px;
+    background: linear-gradient(#61aae6, #0e7fdc) #2196F3;
+    transition: 0.2s;
+    font-family: "Gabriola";
+    font-size: 30px;
+}
+.button_banner1, .button_banner{
+    font-family: "Gabriola";
+    font-size: 30px;
+}
+button a{
+    font-family: "Gabriola";
+    font-size: 30px;
+}
+button:hover{background: linear-gradient(#a3c6e3, #2196F3) #a3c6e3; }
+button:active{ background: linear-gradient(#2196F3, #a3c6e3) #2196F3; }
+button{
+    font-size: 20px;
+}
+.button_banner1{
+    margin-right: 30px;
+}
+nav{
+    display: flex;
+    font-family: "Gabriola";
+    padding: 10px 20px 0;
+}
+.ul_menu_right{
+    margin-left: auto;
+    padding: 0;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ul_menu_left{
+    margin-right: auto;
+    padding: 0;
+}
+.li_left{
+    margin-left: 30px;
+}
+.li_right{
+    margin-right: 30px;
+}
+
+
+/* Новости */
+.news_text{
+    text-align: center;
+}
+.blok_news{
+    width: 350px;
+}
+.news_blok{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 0;
+    padding: 0 20px;
+}
+.news_img img{
+    object-fit: cover !important;
+    height: 250px !important;
+    width: 100%;
+}
+/* Услуги */
+.blok_services p, .blok_services a{
+    margin: 50% 20px 0 20px;
+    color: #a3c6e3;
+}
+.services_blok{
+    display: flex;
+}
+.blok_services{
+    background: url(images/services.png) no-repeat;
+}
+.blok_services_bottom{
+    margin-bottom: 50px;
+}
+.blok_services_top{
+    display: flex;    
+}
+.blok_services_button{
+    display: flex;    
+}
+.blok_services_bottom{
+    display: flex;    
+    margin-top: 50px;
+}
+.services_text{
+    text-align: center;
+    color: #5d6aa6;
+}
+.services_blok_top img, .services_blok_bottom  img{
+    object-fit: cover !important;
+    height: 250px !important;
+    width: 100%;
+}
+
+.services_blok_top, .services_blok_bottom {
+    width: 200px;
+    margin: 0 20px;
+}
+/* о компании */
+.information_company img{
+    height: 520px;
+}
+.company_specifications_left, .company_specifications_right{
+    width: 450px;
+    padding: 0 30px;
+}
+.company_information{
+    display: flex;
+}
+/* .company_information{
+    display: flex;
+    justify-content: space-between; 
+    
+} */
+/* подвал */
+footer{
+    padding-top: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.ul_menu_footer{
+    padding: 0;
+}
+.ul_menu_footer li{
+    list-style-type: none;
+    padding: 10px;
+}
+.ul_menu_footer li a{
+    text-decoration: none; 
+    font-size: 50px;
+    color: #5d6aa6;
+}
+.logo_img{
+    height: 100%;
+    width: 300px;
+}
+.social_network{
+    padding-right: 7%;
+}
+.social_network img{
+    height: 40px;
+    padding-left: 40%;
+}
+
+/* страница контактов */
+.contacts_topic{
+    font-weight: bold;
+}
+.contacts_vk{
+    width: 30px;
+    padding-top: 20%;
+}
+.contacts_blok{
+    display: flex;
+}
+.contacts_description, .contacts_vk{
+    padding-left: 30px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.contacts_text{
+    padding: 0 10%;
+}
+.map{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+/* страница новостей */
+.news_page_container1{
+    display: flex;
+}
+.news_page_img{
+    height: 500px;
+    width: 500px;
+}
+.news_page_text{
+    padding: 0 20px;
+    padding-top: 5%;
+}
+.news_page_p{
+    line-height: 50px;
+    text-align:justify;
+}
+.news_page_blok{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 0;
+    padding: 0 20px;
+} 
+.news_page_bloks{
+    width: 350px;
+}
+.additionally{
+    font-size: 1.2em;
+}
+/* страница услуг */
+.services_page_text a{
+    margin-left: 40%;
+}
+.services_page_container1{
+    display: flex;
+}
+.services_page_img{
+    height: 500px;
+    width: 500px;
+}
+.services_page_text{
+    padding: 0 20px;
+    padding-top: 5%;
+}
+.services_page_p{
+    line-height: 50px;
+    text-align:justify;
+}
+
+.services_page_blok{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 0;
+    padding: 0 20px;
+} 
+.services_page_bloks{
+    width: 250px;
+}
+.services_text{
+    text-align: center;
+}
+.services_news{
+    width: 250px;
+}
+.services_img img{
+    object-fit: cover !important;
+    height: 250px !important;
+    width: 100%;
+}
+/* о компании */
+.reviews_written img{
+    height: 250px;
+}
+.reviews_written{
+    line-height: 30px;
+    width: 600px;
+}
+.form img{
+    height: 250px;
+}
+.reviews1{
+    width: 600px;
+    border: #a3c6e3 5px dashed;
+    padding: 10px;
+    margin: 10px;
+}
+.write_feedback{
+    width:600px; 
+    word-wrap:break-word;
+    
+}
+.our_reviews{
+    display: flex;
+    justify-content: space-between;
+}
+.name_date{
+    display: flex;
+    margin-bottom: 20px;
+}
+.company_name{
+    padding-right: 20px;
+    font-weight: bold;
+}
+.map{
+    margin-left: 3%;
+}
+
+
+
+.form-row {
+	margin-bottom: 15px;
+}
+.form-row label {
+	display: block;
+	color: #777;
+	margin-bottom: 5px;
+}
+.form-row input[type="text"] {
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+ 
+/* Стили для вывода превью */
+.img-item {
+	display: inline-block;
+	margin: 0 20px 20px 0;
+	position: relative;
+	user-select: none;
+}
+.img-item img {
+	border: 1px solid #767676;
+}
+.img-item a {
+	display: inline-block;
+	background: url(/remove.png) 0 0 no-repeat;
+	position: absolute;
+	top: -5px;
+	right: -9px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.reviews_item {
+	background: #efefef;
+	padding: 15px 30px 0px 30px;
+	margin-bottom: 20px;
+}
+.reviews_item-name {
+	font-weight: 900;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.reviews_item-text {
+	margin-bottom: 15px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.reviews_item-img {
+	display: inline-block;
+	margin: 0 15px 15px 0;
+}
