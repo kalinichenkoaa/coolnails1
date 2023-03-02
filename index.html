@@ -70,30 +70,30 @@
             <div class="container">
                 <h2>Новости</h2>
                 <div class="news_blok">
-                    <?php
-                        $db_host='localhost'; // ваш хост
-                        $db_name='diplom'; // ваша бд
-                        $db_user='root'; // пользователь бд
-                        $db_pass=''; // пароль к бд
-                        mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);// включаем сообщения об ошибках
-                        $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name); // коннект с сервером бд
-                        $mysqli->set_charset("utf8mb4"); // задаем кодировку
-
-                        $result = $mysqli->query('SELECT * FROM `news` ORDER BY `id` DESC LIMIT 3'); // запрос на выборку
-                        while($row = $result->fetch_assoc())// получаем все строки в цикле по одной
-                        { ?>
                             <div class="blok_news">
-                                <div class="news_img"><img src="images/<?= $row['image']?>"></div>
+                                <div class="news_img"><img src="images/images_product/sertificat.jpg</div>
                                 <div class="news_text">
-                                    <h3 class="news_text_header"><?= $row['header']?></h3>
-                                    <p class="news_text_explanation"><?= $row['short_text']?></p>
+                                    <h3 class="news_text_header">ВАШ ИДЕАЛЬНЫЙ ПОДАРОК</h3>
+                                    <p class="news_text_explanation">Думаете, чем порадовать своих близких? CoolNails предлагают подарочные сертификаты.</p>
                                     <a href="news.html"><button class="button_news">Подробнее</button></a>
                                 </div>
                             </div>
-                        <?php
-                        }
-                    ?>
-                    
+                                    <div class="blok_news">
+                                <div class="news_img"><img src="images/images_product/sertificat.jpg</div>
+                                <div class="news_text">
+                                    <h3 class="news_text_header">ВАШ ИДЕАЛЬНЫЙ ПОДАРОК</h3>
+                                    <p class="news_text_explanation">Думаете, чем порадовать своих близких? CoolNails предлагают подарочные сертификаты.</p>
+                                    <a href="news.html"><button class="button_news">Подробнее</button></a>
+                                </div>
+                            </div>
+                                <div class="blok_news">
+                                <div class="news_img"><img src="images/images_product/sertificat.jpg</div>
+                                <div class="news_text">
+                                    <h3 class="news_text_header">ВАШ ИДЕАЛЬНЫЙ ПОДАРОК</h3>
+                                    <p class="news_text_explanation">Думаете, чем порадовать своих близких? CoolNails предлагают подарочные сертификаты.</p>
+                                    <a href="news.html"><button class="button_news">Подробнее</button></a>
+                                </div>
+                            </div>
                 </div>
             </div>
         </section>
@@ -108,79 +108,34 @@
                     <div class="blok_services1">
                         <h2>Услуги</h2>
                         <div class="blok_services_top">
-                            <?php
-                                $db_host='localhost'; // ваш хост
-                                $db_name='diplom'; // ваша бд
-                                $db_user='root'; // пользователь бд
-                                $db_pass=''; // пароль к бд
-                                mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);// включаем сообщения об ошибках
-                                $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name); // коннект с сервером бд
-                                $mysqli->set_charset("utf8mb4"); // задаем кодировку
-
-                                $result = $mysqli->query('SELECT * FROM `services` ORDER BY `id` LIMIT 0, 3'); // запрос на выборку
-                                while($row = $result->fetch_assoc())// получаем все строки в цикле по одной
-                                { ?>
                                     <div class="services_blok_top">
-                                        <div class="services_img"><img src="images/<?= $row['image']?>"></div>
+                                        <div class="services_img"><img src="images/klasicheskiy.jpg"></div>
                                         <div class="services_text">
-                                            <h3 class="services_text_header"><?= $row['header']?></h3>
-                                            <p class="services_price">От&nbsp; <?= $row['price']?>&nbsp; руб.</p>
+                                            <h3 class="services_text_header">Маникюр</h3>
+                                            <p class="services_price">От&nbsp; 300 &nbsp; руб.</p>
                                             <a href="services.html"><button class="button_services">Подробнее</button></a>
                                         </div>
                                     </div>
-                                <?php
-                                }
-                            ?>
                         </div>
-                        <div class="blok_services_button">
-                            <?php
-                                $db_host='localhost'; // ваш хост
-                                $db_name='diplom'; // ваша бд
-                                $db_user='root'; // пользователь бд
-                                $db_pass=''; // пароль к бд
-                                mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);// включаем сообщения об ошибках
-                                $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name); // коннект с сервером бд
-                                $mysqli->set_charset("utf8mb4"); // задаем кодировку
-
-                                $result1 = $mysqli->query('SELECT * FROM `services` ORDER BY `id` LIMIT 3, 3'); // запрос на выборку
-                                while($row = $result1->fetch_assoc())// получаем все строки в цикле по одной
-                                { ?>
+                        <div class="blok_services_top">
                                     <div class="services_blok_top">
-                                        <div class="services_img"><img src="images/<?= $row['image']?>"></div>
+                                        <div class="services_img"><img src="images/klasicheskiy.jpg"></div>
                                         <div class="services_text">
-                                            <h3 class="services_text_header"><?= $row['header']?></h3>
-                                            <p class="services_price">От&nbsp; <?= $row['price']?>&nbsp; руб.</p>
+                                            <h3 class="services_text_header">Маникюр</h3>
+                                            <p class="services_price">От&nbsp; 300 &nbsp; руб.</p>
                                             <a href="services.html"><button class="button_services">Подробнее</button></a>
                                         </div>
                                     </div>
-                                <?php
-                                }
-                            ?>
                         </div>
-                        <div class="blok_services_button1">
-                            <?php
-                                $db_host='localhost'; // ваш хост
-                                $db_name='diplom'; // ваша бд
-                                $db_user='root'; // пользователь бд
-                                $db_pass=''; // пароль к бд
-                                mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);// включаем сообщения об ошибках
-                                $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name); // коннект с сервером бд
-                                $mysqli->set_charset("utf8mb4"); // задаем кодировку
-
-                                $result2 = $mysqli->query('SELECT * FROM `services` ORDER BY `id` LIMIT 6, 3'); // запрос на выборку
-                                while($row = $result2->fetch_assoc())// получаем все строки в цикле по одной
-                                { ?>
+                        <div class="blok_services_top">
                                     <div class="services_blok_top">
-                                        <div class="services_img"><img src="images/<?= $row['image']?>"></div>
+                                        <div class="services_img"><img src="images/klasicheskiy.jpg"></div>
                                         <div class="services_text">
-                                            <h3 class="services_text_header"><?= $row['header']?></h3>
-                                            <p class="services_price">От&nbsp; <?= $row['price']?>&nbsp; руб.</p>
+                                            <h3 class="services_text_header">Маникюр</h3>
+                                            <p class="services_price">От&nbsp; 300 &nbsp; руб.</p>
                                             <a href="services.html"><button class="button_services">Подробнее</button></a>
                                         </div>
                                     </div>
-                                <?php
-                                }
-                            ?>
                         </div>
                     </div>
                 </div>
