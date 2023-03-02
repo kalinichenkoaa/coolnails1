@@ -25,7 +25,7 @@
             </nav>
         </div>
     </header>
-    <main>
+       <main>
         <div class="container">
             <div class="photo_gallery">
                 <h2>Фотогалерея</h2>
@@ -37,6 +37,17 @@
                     <img class="aligncenter" src="images/work/work5.jpg" style="width:200px" onclick="this.style.width='500px'" onmouseout="this.style.width='200px'" > 
                 </div>
             </div>
+                <div class="rosigrish">
+                    <h2>Розыгрыш бесплатного маникюра</h2>
+                    <p class="yslovie">Для того, чтобы участвовать, нужно будет выполнить всего 5 простых условий🤗:<br>
+                        1. Быть подписанным на нашу группу ВКонтакте<br>
+                        2. Поставить лайк на пост с розыгрышем<br>
+                        3. Оставить любой комментарий под постом<br>
+                        4. Ваш аккаунт должен быть открыт на время проведения конкурса<br>
+                        🌹 Победителя буду определять 8 марта 12:00 мск 🌹<br>
+                        8 марта 12:00 мск</p>
+                </div>
+            </div>
             <div class="stock">
                 <h2>Акции</h2>
                 <div class="stock1">
@@ -44,8 +55,76 @@
                     <img src="" alt="">
                 </div>
             </div>
+            <h2 class="st">Сотрудники</h2>
+            <div class="sotrudniki">
+                <div class="blok4">
+                    <img src="images/sotrydnik3.WebP" alt="изображение сотрудника1">
+                    <h3>Орлов Антон</h3>
+                    <p>Генеральный директор</p>
+                    <p>Тел.: +7 (759)869-89-49 </p>
+                    <div class="footer1" itemscope itemtype="https://schema.org/employee" style="padding:0px 20px; display: flex;">
+                    <div class="vayber" itemprop="viber"><a href="#"><img src="images/viber.WebP" alt="вайбер"></a></div>
+                    <div class="vk" itemprop="vkont"><a href="#"><img src="images/vkontakte.WebP" alt="вконтакте"></a></div>
+                    <div class="inst" itemprop="insta"><a href="#"><img src="images/instagramm.WebP" alt="инстаграм"></a></div></div>
+                </div>
+                <div class="blok5">
+                    <img src="images/sotrydnik1.WebP" alt="изображение сотрудника2">
+                    <h3>Филатова Юлия</h3>
+                    <p>Менеджер по персоналу</p>
+                    <p>Тел.: +7 (759)869-89-49 </p>
+                    <div class="footer1" itemscope itemtype="https://schema.org/employee" style="padding:0px 20px ; display: flex;">
+                        <div class="vayber" itemprop="viber"><a href="#"><img src="images/viber.WebP" alt="вайбер"></a></div>
+                        <div class="vk" itemprop="vkont"><a href="#"><img src="images/vkontakte.WebP" alt="вконтакте"></a></div>
+                        <div class="inst" itemprop="insta"><a href="#"><img src="images/instagramm.WebP" alt="инстаграм"></a></div></div>
+                </div>
+                <div class="blok6">
+                    <img src="images/sotrydnik2.WebP" alt="изображение сотрудника3">
+                    <h3>Лебедев Платон</h3>
+                    <p>Администратор</p>
+                    <p>Тел.: +7 (865)662-62-50</p>
+                    <div class="footer1" itemscope itemtype="https://schema.org/employee" style="padding:0px 20px ; display: flex;">
+                        <div class="vayber" itemprop="viber"><a href="#"><img src="images/viber.WebP" alt="вайбер"></a></div>
+                        <div class="vk" itemprop="vkont"><a href="#"><img src="images/vkontakte.WebP" alt="вконтакте"></a></div>
+                        <div class="inst" itemprop="insta"><a href="#"><img src="images/instagramm.WebP" alt="инстаграм"></a></div></div>
+                </div>
+                <div class="blok7">
+                    <img src="images/sotrydnik4.WebP" alt="изображение сотрудника4">
+                    <h3>Соболева Аделия</h3>
+                    <p>Директор по закупкам</p>
+                    <p>Тел.: +7 (813)297-09-21</p>
+                    <div class="footer1" itemscope itemtype="https://schema.org/employee" style="padding:0px 20px ; display: flex;">
+                        <div class="vayber" itemprop="viber"><a href="#"><img src="images/viber.WebP" alt="вайбер"></a></div>
+                        <div class="vk" itemprop="vkont"><a href="#"><img src="images/vkontakte.WebP" alt="вконтакте"></a></div>
+                        <div class="inst" itemprop="insta"><a href="#"><img src="images/instagramm.WebP" alt="инстаграм"></a></div></div>
+                </div>
+            </div>
             <div class="reviews">
                 <h2>Отзывы</h2>
+                <form method="post" action="" class="form">
+                    <p>
+                        <label for="firstname"><span class="formTextRed">*</span> Имя:</label>
+                        <input type="text" name="firstname" id="firstname" />
+                    </p>
+                    <p>
+                        <label for="email"><span class="formTextRed">*</span> Email:</label>
+                        <input type="text" name="email" id="email" />
+                    </p>
+
+                    <p>
+                        <label for="comment"><span class="formTextRed">*</span> Отзыв:</label>
+                        <textarea rows="10" name="comment" id="comment"></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="confirm" id="confirm" />
+                        <label for="confirm" class="confirm"><span class="formTextRed">*</span> Не возражаю против публикации моего отзыва:</label>
+                    </p>
+                    <p>
+                        <input type="file" name="attach[]" multiple>
+                    </p>
+                    <p class="submit">
+                        <input type="submit" value="Отправить" />
+                    </p>
+                </form>
                 <div class="our_reviews">
                     <div class="reviews_written">
                         <div class="reviews1">
