@@ -1,0 +1,38 @@
+<urlset xmlns=" http://www.sitemaps.org/schemas/sitemap/0.9 "> 
+<url> 
+	<loc>https://kalinichenkoaa.github.io/coolnails1/index.html</loc>
+	<lastmod>2023-02-27T19:07:00+05:00</lastmod> 
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
+</url>
+<url> 
+	<loc>https://kalinichenkoaa.github.io/coolnails1/index.html#news</loc>
+	<lastmod>2023-02-27T19:07:00+05:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.6</priority> 
+</url>
+<url> 
+	<loc>https://kalinichenkoaa.github.io/coolnails1/index.html#services</loc>
+	<lastmod>2023-02-27T19:07:00+05:00</lastmod>
+	<changefreq>hourly</changefreq>
+	<priority>0.8</priority> 
+</url>
+<url> 
+	<loc>https://kalinichenkoaa.github.io/coolnails1/contacts.html</loc> 
+	<lastmod>2023-02-27T19:07:00+05:00</lastmod>
+	<changefreq>hourly</changefreq> 
+	<priority>0.8</priority>
+</url> 
+<url> 
+	<loc>https:https://kalinichenkoaa.github.io/coolnails1/company.html</loc>
+	<lastmod>2023-02-27T19:07:00+05:00</lastmod>
+	<changefreq>hourly</changefreq>
+	<priority>0.8</priority> 
+</url>
+<url> 
+	<loc>https:https://kalinichenkoaa.github.io/coolnails1/company.html</loc>
+	<lastmod>2023-02-27T19:07:00+05:00</lastmod>
+	<changefreq>hourly</changefreq>
+	<priority>0.8</priority> 
+</url>
+</urlset>
