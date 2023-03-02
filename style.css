@@ -476,3 +476,78 @@ footer{
 	display: inline-block;
 	margin: 0 15px 15px 0;
 }
+.sotrudniki{
+    display: flex;
+}
+.sotrudniki img{
+    width: 325px;
+    padding: 12.5px;
+}
+.footer1 img {
+    width: 30px;
+    padding: 0 5px;
+}
+.oshibka{
+    font-size: 100px;
+}
+.stroka_1 p{
+    color: black;
+}
+.stroka_2 h1{
+    margin: 20px 0px 0px;
+    font-size: 400px;
+    color: #5d6aa6;
+    text-align: center;
+}
+.stroka_2 h2{
+    color: #39434d;
+    font-size: 40px;
+    margin: 0 0 22px;
+    letter-spacing: 0.39px
+}
+.stroka_3 p{
+    width: 95%;
+    font-size: 26px;
+    color: #39434d;
+    font-weight: 300;
+    letter-spacing: .36px;
+    padding-left: 30px;
+}
+.naglavnuy{
+    margin: 0 auto;
+}
+.naglavnuy button{
+    font-size: 25px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #5d6aa6;
+    font-weight: 900;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.naglavnuy{
+    text-align: center;
+}
+.naglavnuy a{
+    color: white;text-decoration: none;
+}
+.razrabotka{
+    text-align: center;
+    padding: 10% 0;
+}
+.ssilochka a{
+    color: white;
+    line-height: 2;
+    font-size: 20px;
+    text-decoration:underline;
+}
+.rosigrish{
+    background-image: url(images/fons.jpg);
+    height: 500px;
+}
+.yslovie{
+    text-align: center;
+}
